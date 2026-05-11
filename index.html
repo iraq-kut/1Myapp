@@ -96,6 +96,7 @@ h1{
     font-size:13px;
 }
 
+/* زر الاندرويد */
 .download-btn{
     display:block;
     width:100%;
@@ -115,6 +116,26 @@ h1{
     transform:translateY(-3px);
 }
 
+/* زر الايفون (نفس اللون) */
+.ios-btn{
+    display:block;
+    width:100%;
+    margin-top:12px;
+    background:linear-gradient(45deg,#2563eb,#06b6d4);
+    color:white;
+    text-decoration:none;
+    padding:16px;
+    border-radius:18px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(37,99,235,0.4);
+}
+
+.ios-btn:hover{
+    transform:translateY(-3px);
+}
+
 .features{
     margin-top:30px;
     text-align:right;
@@ -131,6 +152,53 @@ h1{
     padding:14px;
     border-radius:15px;
     color:#dbeafe;
+}
+
+/* تليجرام */
+.telegram-box{
+    margin-top:30px;
+    text-align:right;
+}
+
+.telegram-input{
+    display:flex;
+    align-items:center;
+    background:rgba(255,255,255,0.05);
+    padding:12px;
+    border-radius:15px;
+    margin-bottom:10px;
+}
+
+.telegram-input input{
+    flex:1;
+    background:none;
+    border:none;
+    outline:none;
+    color:white;
+    font-size:14px;
+    font-family:'Cairo',sans-serif;
+}
+
+.tg-icon{
+    margin-left:10px;
+    font-size:18px;
+    color:#38bdf8;
+}
+
+.telegram-btn{
+    display:block;
+    background:#229ED9;
+    color:white;
+    text-decoration:none;
+    padding:14px;
+    border-radius:15px;
+    text-align:center;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.telegram-btn:hover{
+    background:#1a8cc8;
 }
 
 .footer{
@@ -159,7 +227,7 @@ h1{
 
 <img class="logo" src="https://up6.cc/2026/05/177851112343881.png">
 
-<h1>Faustus Tv </h1>
+<h1>Faustus Tv</h1>
 
 <p class="desc">
 تطبيق احترافي سريع وآمن يوفر أفضل تجربة للمستخدم
@@ -171,7 +239,6 @@ h1{
 </div>
 
 <div class="info-box">
-
 <div class="info">
 <h2>0.3</h2>
 <p>سرعة</p>
@@ -186,32 +253,36 @@ h1{
 <h2>APK</h2>
 <p>أندرويد</p>
 </div>
-
 </div>
 
-<a class="download-btn" href="I would like to share 'app.apk' with you https://pixeldrain.com/u/cgdrMvDR" download>
-تحميل التطبيق
+<!-- زر تحميل اندرويد -->
+<a class="download-btn" href="https://pixeldrain.com/u/cgdrMvDR">
+تحميل التطبيق الاندرويد 
+</a>
+
+<!-- زر الايفون -->
+<a class="ios-btn" href="https://linktr.ee/faustus_tv">
+صفحة مشاهدة الايفون 
 </a>
 
 <div class="features">
-
 <h3>مميزات التطبيق</h3>
 
-<div class="feature">
-⚡ سرعة عالية وأداء ممتاز
+<div class="feature">⚡ سرعة عالية وأداء ممتاز</div>
+<div class="feature">🎨 واجهة حديثة وجذابة</div>
 </div>
 
-<div class="feature">
-🔒 حماية وأمان للمستخدم
-</div>
+<!-- تليجرام -->
+<div class="telegram-box">
 
-<div class="feature">
-🎨 واجهة حديثة وجذابة
-</div>
+<h3>💬 تواصل عبر تليجرام</h3>
 
-<div class="feature">
-📱  يعمل على أغلب الأجهزة الاندرويد 
 </div>
+</a>
+
+<a class="telegram-btn" href="https://t.me/kut_max2024">
+فتح تليجرام
+</a>
 
 </div>
 
@@ -220,7 +291,6 @@ ahmed jody © جميع الحقوق محفوظة
 </div>
 
 </div>
-
 </div>
 
 </body>
